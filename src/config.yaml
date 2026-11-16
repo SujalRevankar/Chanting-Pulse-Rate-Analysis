@@ -1,0 +1,45 @@
+ubfc_path: /CHANGE/TO/DATASET_2
+input_path: /CHANGE/TO/YOUR/VIDEOS
+output_path: ./outputs
+seed: 42
+fps: 30
+size: 32
+clip_seconds: 10
+epochs: 30
+patience: 6
+batch_size: 1
+learning_rate: 0.0001
+train_fraction: 0.67
+validation_fraction: 0.16
+face_rois:
+- forehead
+- left_cheek
+- right_cheek
+hand_rois: []
+protocol:
+  block_seconds: 60
+  chant_order:
+  - Ha
+  - Ya
+analysis:
+  window_seconds: 30
+  minimum_window_seconds: 10
+  transition_exclude_seconds: 3
+  minimum_roi_coverage: 0.95
+  maximum_gap_seconds: 0.2
+  minimum_spectral_concentration: 0.35
+  maximum_motion: 0.08
+  maximum_brightness_jump: 0.15
+  maximum_method_difference_bpm: 10
+  export_roi_preview: false
+  export_waveform_csv: true
+evm:
+  enabled: false
+  gain: 10
+  low_hz: 0.7
+  high_hz: 3.0
+  max_seconds: 60
+  ubfc_enabled: false
+toolbox:
+  enabled: false
+  path: ./vendor/rPPG-Toolbox

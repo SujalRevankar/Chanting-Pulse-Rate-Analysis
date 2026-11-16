@@ -1,0 +1,26 @@
+{
+  "edition": "Face-only repository preparation",
+  "original_source_sha256": {
+    "roi.py": "07a19d470d047cfc0e4f1bdc3ff797ad3cc49fcb41dafaa83c59d9fe43c5a7d2",
+    "predict_videos.py": "8f6752fac8d669e6c3035a6dd045d15e2fd02923fe9fa8437e467b4e1f43c926",
+    "pipeline.py": "d85bb23ed40241292c37453f9e517e3de355a23c3851c49f30dcb129c0a780b4",
+    "train_incremental.py": "5a8fed3dbd2d0e230da0b28cee5841c208656ecbf5fd58171e5c4e145b926384",
+    "streaming_data.py": "a399081fcb4c614b71757992e90d490a1cb1aaa84555624eef026a25b106b1b2",
+    "reference.py": "df3cf490b06b34ce96d1e8da98fbd18e5de2ced5de2e426a84ad03d94da5d873",
+    "model.py": "022199715b9789923b7cbd1c3911b2c69db7ab784b6b49d85eb40ba977b9e15a",
+    "setup_toolbox.py": "225b3ed179b407a716cb47384705cd4906e0377e82d5e62439d0b9637f8e2f59",
+    "core.py": "bc4dd9ece449ef98fd2f174e476bf650fa46a9b9a944c6910c8073df05b21b0f",
+    "predict_sequence.py": "ae561242aea215b3f024fdb989e5e5e358321d4c1aa1af358f53125e94e032a6",
+    "inspect_reference.py": "054d2483ed1cc868cbe394c9bedb9093fe51b726a51d5638e68258bff94d1398",
+    "train_ubfc.py": "b5d4799b9e5e5e195ebda11b2865571e10e0af8aa811f2687c43028b56566ea0"
+  },
+  "face_example_inputs": {
+    "windows.csv": "windows(1).csv",
+    "segments.csv": "segments(1).csv",
+    "paired_changes.csv": "paired_changes(2).csv",
+    "video_summary.csv": "video_summary(1).csv",
+    "waveforms.csv": "waveforms(2).csv",
+    "protocol.json": "protocol(1).json"
+  },
+  "excluded": "Raw videos, photos, ROI patch caches, weights, local metadata/logs and palm outputs"
+}

@@ -1,0 +1,13 @@
+Noncommercial Learning and Demonstration License
+Version 1 — 16 November 2026
+Copyright (c) 2026 viraj54
+
+Permission is granted to view, download, run, study and modify the project-owned code and documentation for personal learning, noncommercial research, evaluation and free demonstrations. Noncommercial copies and GitHub forks may be redistributed if this license and copyright notice are retained and modifications are identified.
+
+Selling this material or derivatives, charging for access, incorporating it into a paid service or product, and other commercial exploitation require prior written permission from the copyright holder. No trademark or endorsement rights are granted.
+
+This license applies only to rights the project owner can grant. Datasets, dependency software, third-party methods and other external materials remain governed by their respective terms. AI-generated illustrative assets do not convey rights in any real person's identity or guarantee exclusive copyright protection.
+
+THE MATERIAL IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER IS NOT LIABLE FOR CLAIMS OR DAMAGES ARISING FROM ITS USE. THIS IS RESEARCH SOFTWARE, NOT A VALIDATED MEDICAL DEVICE.
+
+All other rights are reserved. This is a custom noncommercial license, not an OSI-approved open-source license.

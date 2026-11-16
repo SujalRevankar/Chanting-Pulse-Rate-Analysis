@@ -1,0 +1,13 @@
+roi,segment,label,pair,segment_duration_s,valid_seconds,coverage,average_bpm,estimated_pulses_valid_duration,whole_segment_pulse_count,interpretation
+forehead,0,silence,1,60,54.0,0.9,77.53689236111111,69.783203125,,video_based_face_estimate; no blood-flow inference
+forehead,1,Ha,1,60,30.0,0.5,89.208984375,44.6044921875,,video_based_face_estimate; no blood-flow inference
+forehead,2,silence,2,60,54.0,0.9,86.669921875,78.0029296875,,video_based_face_estimate; no blood-flow inference
+forehead,3,Ya,2,60,54.0,0.9,87.841796875,79.0576171875,,video_based_face_estimate; no blood-flow inference
+left_cheek,0,silence,1,60,54.0,0.9,77.68419053819444,69.915771484375,,video_based_face_estimate; no blood-flow inference
+left_cheek,1,Ha,1,60,54.0,0.9,84.66796875,76.201171875,,video_based_face_estimate; no blood-flow inference
+left_cheek,2,silence,2,60,54.0,0.9,86.669921875,78.0029296875,,video_based_face_estimate; no blood-flow inference
+left_cheek,3,Ya,2,60,54.0,0.9,88.0859375,79.27734375,,video_based_face_estimate; no blood-flow inference
+right_cheek,0,silence,1,60,54.0,0.9,77.53689236111111,69.783203125,,video_based_face_estimate; no blood-flow inference
+right_cheek,1,Ha,1,60,54.0,0.9,88.623046875,79.7607421875,,video_based_face_estimate; no blood-flow inference
+right_cheek,2,silence,2,60,54.0,0.9,86.279296875,77.6513671875,,video_based_face_estimate; no blood-flow inference
+right_cheek,3,Ya,2,60,54.0,0.9,88.28125,79.453125,,video_based_face_estimate; no blood-flow inference

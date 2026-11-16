@@ -1,0 +1,4 @@
+roi,protocol_covered_seconds,valid_seconds,coverage,average_bpm,estimated_total_pulses_valid_duration
+forehead,240.0,192.0,0.8,84.82757568359375,271.4482421875
+left_cheek,240.0,216.0,0.9,84.27700466579861,303.397216796875
+right_cheek,240.0,216.0,0.9,85.18012152777777,306.6484375
