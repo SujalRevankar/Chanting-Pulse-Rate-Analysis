@@ -72,7 +72,6 @@ Motion, lighting, skin visibility, compression and frame timing can affect estim
 - [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox) supplies the optional official POS comparison. It is not bundled.
 - [MediaPipe](https://github.com/google-ai-edge/mediapipe) provides facial landmarks. Python dependencies retain their own licenses.
 
-Illustrated portraits were AI-generated for this repository and depict no supplied participant. Charts and annotations were composed from the supplied numerical exports. No dataset faces were used in the media.
 
 ## License
 
