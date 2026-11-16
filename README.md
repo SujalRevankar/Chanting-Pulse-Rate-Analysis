@@ -24,11 +24,6 @@ The pipeline tracks the forehead and both cheeks, predicts a pulse waveform usin
 
 The model estimates pulse; the sequence labels are supplied by the user. It does not recognize chants from audio. The public presentation focuses on face outputs. Palm results are excluded because the model's training data are facial recordings and palm performance was unsuitable for this presentation.
 
-## Facial regions
-
-![Schematic facial ROI illustration](assets/face-rois.png)
-
-The drawing uses a fictional person. Actual masks are convex hulls of MediaPipe landmarks listed in [Methods](docs/METHODS.md); this drawing is not a tracker output. Left/right follow code labels and may reverse under mirroring.
 
 ## Protocol
 
