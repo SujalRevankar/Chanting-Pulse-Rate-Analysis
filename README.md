@@ -42,6 +42,19 @@ Each chant is compared with its immediately preceding silence. The supplied face
 
 The supplied forehead estimates average **77.54 → 89.21 → 86.67 → 87.84 BPM** across Silence / Ha / Silence / Ya, using accepted footage only. These are observations from one supplied output set, not proof that chanting caused the changes. [All three face regions, coverage and evaluation scope](docs/RESULTS.md).
 
+## CNN–LSTM versus POS comparison
+
+![CNN–LSTM versus POS facial waveforms](assets/cnn-lstm-vs-pos-waveforms.png)
+
+The forehead and both cheek waveforms are shown over the first 10 analysed seconds of the supplied face recording, during silence. Each trace is standardized separately for visual comparison. No time shifting or sign correction is applied; standardized amplitudes do not represent blood-flow volume.
+
+![CNN–LSTM versus POS pulse-rate estimates](assets/cnn-lstm-vs-pos-bpm.png)
+
+The second graph compares estimated BPM in accepted analysis windows across Silence → Ha → Silence → Ya. Markers indicate window midpoints; rejected windows break the plotted series. The acceptance rules include a CNN–LSTM/POS disagreement threshold, so agreement among accepted windows is partly influenced by that selection.
+
+POS is a comparison method, not ground truth. Agreement between methods does not establish accuracy on the chanting recording, which has no simultaneous contact reference.
+
+
 ## Training and prediction
 
 UBFC-rPPG Dataset 2 is used for supervised facial waveform learning with contact PPG reference. The model is a custom 2D CNN → LSTM → linear waveform head; it is not PhysNet. Incremental training preserves model/optimizer state across subject additions. Validation and test people must remain separate from training.
